@@ -1,0 +1,47 @@
+.nft{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    filter: brightness(75%);
+}
+
+.nftDiv{
+    position: relative;
+}
+
+.parentDiv{
+    width: 302px;
+    height: 304px;
+    border-radius: 8px;
+    position: absolute;
+    top: 49.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 255, 255,0.4);
+    opacity: 0;
+}
+.parentDiv:hover{
+    opacity: 0.8;
+}
+
+.view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nftWithHover {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255,0.4);
+    background-image: url('../images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:0;
+}
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.infoH1 {
+    color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.infoH1:hover{
+    color: aqua;
+}
+
+
+.infoP {
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+}

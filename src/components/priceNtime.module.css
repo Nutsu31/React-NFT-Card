@@ -1,0 +1,33 @@
+.flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textCenter {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.eth {
+    color: #00FFF8;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+.time {
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;    
+    margin-left: 8px;
+}
